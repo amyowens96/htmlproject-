@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Knowledgebase Home Page </title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	<!-- template style sheet -->
+		<link rel="stylesheet" href="../template.css">
+		<link rel="stylesheet" href="../myjava.css">
+		
+	
+		
+		<script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
+	
+	</head>
+	
+	<!-- navbar  -->
+
+	<body style ="background-color: #F9F6FD">
+	
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+				<a class="navbar-brand" href="../index.html"><img id= "workvivo_logo" src ="../logo.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="HomePage.html">Knowledgebase</a>
+				</li>
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Ticketing
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="../ticketingsystem/TicketHomePage.html">Ticket Home Page</a>
+							<!-- <a class="dropdown-item" href="../ticketingsystem/DetailsTicketPage.html">Details</a> -->
+					<!-- <div class="dropdown-divider"></div> -->
+							<a class="dropdown-item" href="../ticketingsystem/CreateTicketPage.html">Create Ticket</a>
+					</div>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="../FAQ/FaqPage.html">FAQ</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="../knowledgebase/AboutUsPage.html">About Us</a>
+				</li>
+				</ul>
+			<form class="form-inline my-2 my-lg-0">
+			  <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+			 <a href= "https://www.workvivo.com/demo"><button class="btn btn-warning my-2 my-sm-0" type="button">Request Demo</button></a>
+			</form>
+		  </div>
+		</nav>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<!-- new div -->
+		<div class="container-fluid">
+		
+		
+		<br> 
+		
+		
+		<!-- new input  -->
+		<div class="input-group mb-3" id="the-basics">
+		  <div class="input-group-prepend">
+			 <!-- <span class="btn btn-warning" id="basic-addon1"> -->
+			 <button class="btn btn-warning my-2 my-sm-0" type="submit">Search Articles</span> 
+		  </div>
+		  <input type="text" class="form-control typeahead" placeholder="Type in Article Names" aria-label="Type in Article Names" aria-describedby="basic-addon1">
+		</div>
+		
+		<br>
+		<br>
+	
+	<!-- article and card -->
+	
+	
+	<div class="container">
+	
+	<!-- card 1  -->
+			<div class="card">
+				  <div class="card-header">
+				  <h4> Most Popular Articles</h5>
+				  </div>
+				  <div class="card-body">
+					<h3 class="card-title">Authentication, Authorisation & Application Security </h3>
+					<br>
+					<p class="card-text">
+						
+						
+						
+						<p><h4>Single Sign On (SSO) Authentication</h4>
+						<br />
+						The majority of Workvivo customers choose to integrate with a third-party federated identity management solution for the purposes of authenticating users in the Workvivo platform. 
+						There are numerous benefits to this approach, including but not limited to: 
+						<br />
+						<br />
+						&bull; Users typically won&rsquo;t need to login to Workvivo as they are already authenticated with the third-party identity solution when they log in to their computer 
+						<br>
+						
+						.....
+						<br>
+						<br>
+						
+						
+					<a href="../knowledgebase/CategoriesPage.html"" class="btn btn-warning">Read Full Article in Categories Page</a>
+				  </div>
+			</div>
+			
+			<br>
+			
+			<!-- card 2  -->
+			<div class="card">
+				  <div class="card-header">
+					Featured
+				  </div>
+				  <div class="card-body">
+					<h3 class="card-title">Password Authentication</h3>
+					<p class="card-text">
+
+						If your organisation does not have a federated identity management solution, you can choose to store user passwords in Workvivo itself. With this approach, users will need to login to Workvivo with their email address and a password of their choosing. The primary benefit of this approach is that it&rsquo;s the simplest &ndash; no configuration is required to get it working.</p>
+						<h5>Setting up passwords</h5>
+						<p>When an administrator (or automated provisioning process) creates a user account, there is an option to send the user an email with a special link they can use to set up their password. 
+							<br>
+						.....
+						
+						<br>
+						<br>
+						
+						
+
+			</p>
+					<a href="../knowledgebase/CategoriesPage.html"" class="btn btn-warning">Read Full Article in Categories Page</a>
+				  </div>
+			</div>
+			
+			<br>
+			
+			<!-- card 3  -->
+			<div class="card">
+				  <div class="card-header">
+					Featured
+				  </div>
+				  <div class="card-body">
+					<h3 class="card-title">&nbsp;User Session Storage</h3>
+					<p class="card-text">
+
+						<br />
+						When a user logs in to the Workvivo Web application, a unique random session identifier is created for that session. 
+						We then store a secure cookie in the user&rsquo;s browser which is passed to our servers with every request &ndash; this allows us to identify the user as they navigate through the application. 
+						When a user logs out, this session identifier is destroyed, as is the cookie. 
+						<br />
+						.....
+						<br>
+						<br>
+			</p>
+					<a href="../knowledgebase/CategoriesPage.html"" class="btn btn-warning">Read Full Article in Categories Page</a>
+				  </div>
+			</div>
+			
+			<br>
+			
+			
+			<!-- card 4  -->
+			<div class="card">
+				  <div class="card-header">
+					Featured
+				  </div>
+				  <div class="card-body">
+					<h3 class="card-title">API Authentication</h3>
+					<p class="card-text">
+					 <br />
+					Our native mobile apps for iOS and Android communicate with the Workvivo back-end via a RESTful JSON API. 
+					This is the same API that is used by our Web Application. With the Web app we can leverage cookies to store user state in the browser, but we do not have the concept of cookies in native mobile apps.
+					Instead, we use an OAuth2 compatible API authentication server which generates access tokens that can be used to identify a user on these types of devices. <br />Once an access token has been created, we store this securely on the device and pass this value in with every subsequent API call. The API validates the access token on every request, and if the token is invalid, the API will return an error response. <br /><br />On the native mobile apps, users remain logged in until they log out or their access tokens are revoked. When a user is deactivated or deleted, their access tokens are automatically deleted preventing them from logging in and automatically logging them out on any devices they have signed in.
+					We can also revoke access tokens for any given user at any time which will effectively log them out of all devices they have signed in on.
+					
+					<br>
+					.....
+					<br>
+					<br>
+			</p>
+					<a href="../knowledgebase/CategoriesPage.html"" class="btn btn-warning">Read Full Article in Categories Page</a>
+				  </div>
+			</div>
+			
+			<br>
+			
+			
+			<!-- card 5  -->
+			<div class="card">
+				  <div class="card-header">
+					Featured
+				  </div>
+				  <div class="card-body">
+					<h3 class="card-title">Authorisation and Role-Based Access Control</h3>
+					<p class="card-text"> 
+					
+					While authentication enables us to identify a user and determine should they be able to log in to Workvivo, 
+					we use authorisation by means of role-based access control to determine whether a user should be able to access a specific feature or resource in Workvivo. 
+					<br />
+					<h5>Feature Permissions and Roles Many features in Workvivo have an associated permission.</h5>
+					In order for a user to access these features, they must be allocated the appropriate permission. 
+					Users can be granted permissions in one of two ways: 
+					
+						<br>
+						.....
+						<br>
+						<br>
+			</p>
+					<a href="../knowledgebase/CategoriesPage.html"" class="btn btn-warning">Read Full Article in Categories Page</a>
+				  </div>
+			</div>
+			
+			<br>
+	
+		
+		
+		<script type ="text/javascript">
+		
+		var substringMatcher = function(strs) {
+			  return function findMatches(q, cb) {
+				var matches, substringRegex;
+
+				// an array that will be populated with substring matches
+				matches = [];
+
+				// regex used to determine if a string contains the substring `q`
+				substrRegex = new RegExp(q, 'i');
+
+				// iterate through the pool of strings and for any string that
+				// contains the substring `q`, add it to the `matches` array
+				$.each(strs, function(i, str) {
+				  if (substrRegex.test(str)) {
+					matches.push(str);
+				  }
+				});
+
+				cb(matches);
+			  };
+			};
+			<!-- to change the options in the search bar  -->
+			var states = ['Authentication, Authorisation & Application Security','Password Authentication','User Session Storage','API Authentication','Authorisation and Role-Based Access Control'
+			];
+
+			
+			$('#the-basics .typeahead').typeahead({
+			  hint: true,
+			  highlight: true,
+			  minLength: 1
+			},
+			{
+			  name: 'states',
+			  source: substringMatcher(states)
+			});
+	
+		</script>
+		
+		
+		
+		
+	
+		<a href="#top"><img class="footer-logo mr-4" src="https://www.workvivo.com/img/logo-icon.png"height="50" width="50"></a>
+           <a href="#top" class="text-muted mr-4"><font color="white">Back to Top </font></a>
+		  
+		  
+		  <!-- <div class="text-right"> -->
+                <a href="https://twitter.com/workvivo" target="_blank" class="footer-social-link mr-sm-4"><img src="https://www.workvivo.com/img/icons/twitter.svg"height="50" width="50"></a>
+				<a href="https://www.linkedin.com/company/workvivo/" target="_blank" class="footer-social-link"><img src="https://www.workvivo.com/img/icons/linkedin.svg"height="50" width="50"></a>
+            <!-- </div> -->
+		
+		<p> <center> <font color="white"> &copy 2018 Workvivo Limited. All rights reserved. </font></center> </p>
+	
+	<br>
+	<br>
+	<br>
+	
+	
+	</body>
+</html>

@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>Knowledgebase Categories Page </title>
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+	<!-- template style sheet -->
+		<link rel="stylesheet" href="../template.css">
+		<link rel="stylesheet" href="../myjava.css">
+		
+	
+		
+		<script src="http://twitter.github.io/typeahead.js/releases/latest/typeahead.bundle.js"></script>
+	
+	</head>
+	
+	<!-- navbar  -->
+
+	<body style ="background-color: #F9F6FD">
+	
+	<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+				<a class="navbar-brand" href="../index.html"><img id= "workvivo_logo" src ="../logo.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="HomePage.html">Knowledgebase</a>
+				</li>
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Ticketing
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="../ticketingsystem/TicketHomePage.html">Ticket Home Page</a>
+							<!-- <a class="dropdown-item" href="../ticketingsystem/DetailsTicketPage.html">Details</a> -->
+					<!-- <div class="dropdown-divider"></div> -->
+							<a class="dropdown-item" href="../ticketingsystem/CreateTicketPage.html">Create Ticket</a>
+					</div>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="../FAQ/FaqPage.html">FAQ</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="../knowledgebase/AboutUsPage.html">About Us</a>
+				</li>
+				</ul>
+			<form class="form-inline my-2 my-lg-0">
+			  <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+			 <a href= "https://www.workvivo.com/demo"><button class="btn btn-warning my-2 my-sm-0" type="button">Request Demo</button></a>
+			</form>
+		  </div>
+		</nav>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		
+		<!-- new div -->
+		<div class="container-fluid">
+		
+		
+		<br> 
+		
+		
+		<!-- new input  -->
+		<div class="input-group mb-3" id="the-basics">
+		  <div class="input-group-prepend">
+			 <!-- <span class="btn btn-warning" id="basic-addon1"> -->
+			 <button class="btn btn-warning my-2 my-sm-0" type="submit">Search Articles</span> 
+		  </div>
+		  <input type="text" class="form-control typeahead" placeholder="Type in Article Names" aria-label="Type in Article Names" aria-describedby="basic-addon1">
+		</div>
+		
+		<br>
+		<br>
+	
+	
+	
+	
+	<!-- article and card -->
+	
+	
+	
+	<div class="container">
+	
+	<!-- card 1  -->
+			<div class="card">
+				  <div class="card-header">
+				  <h4> Category Page</h5>
+				  </div>
+				  <div class="card-body">
+					<h3 class="card-title">Authentication, Authorisation & Application Security </h3>
+					<br>
+					<p class="card-text">
+						
+						
+						
+						<p><h4>Single Sign On (SSO) Authentication</h4>
+						<br />
+						The majority of Workvivo customers choose to integrate with a third-party federated identity management solution for the purposes of authenticating users in the Workvivo platform. 
+						There are numerous benefits to this approach, including but not limited to: 
+						<br />
+						<br />
+						&bull; Users typically won&rsquo;t need to login to Workvivo as they are already authenticated with the third-party identity solution when they log in to their computer 
+						<br>
+						&bull; Users don&rsquo;t need a separate password for Workvivo 
+						<br>
+						&bull; Granting and revoking access to Workvivo can be controlled in the same place as access is managed for other applications in the organisation 
+						<br>
+						&bull; Many IDM solutions provide support for enhanced security features such as multi-factor authentication, complex password rules and policies that define controls such as password expiry 
+						<br />
+						<br />
+						Workvivo can integrate with any identity management solution that supports the Security Assertion Markup Language version 2 (SAML 2) protocol. 
+						This includes the following products: 
+						<br />
+						<br>
+						&bull; Microsoft Active Directory o Active Directory Federation Services (ADFS) o Windows Azure Active Directory (WAAD) 
+						<br>
+						&bull; OneLogin 
+						<br>
+						&bull; Okta 
+						<br>
+						&bull; Ping 
+						<br>
+						&bull; Google G Suite 
+						<br />
+						<br />
+						Configuring SSO in Workvivo is simple and only takes a few minutes. 
+						Your identity management solution will provide you with some information that needs to be set up in Workvivo &ndash; 
+						an Entity ID, a URL for processing logins, a URL for processing logouts and a X.509 certificate that&rsquo;s used to sign authentication requests. 
+						We will provide you with an Identifier and Reply URL that must be added to the identity management solution. 
+						<br />
+						It is important to note that users must be given access to Workvivo in the identity management solution. You can usually grant access to users by assigning Workvivo to a group or by setting up specific rules in the IDM product. In order to access Workvivo, users also need to be set up in Workvivo itself &ndash; more information about automating provisioning of users can be found in the document titled &ldquo;Automated User Provisioning Guidelines&rdquo;.</p>
+						<h5>Service Accounts</h5>
+						<p>In an organisation using SSO for authentication, in order to login to Workvivo you must have an account on both the identity management solution and on Workvivo. In some cases, you may wish to create Workvivo user accounts that do not exist in the IDM, however. An example might be to create a user account for making company announcements. We refer to this type of account as a service account, they are able to log in on the Web application environment (unfortunately we don&rsquo;t support service accounts on our mobile apps) and we can set these up for you on request &ndash; please contact support@workvivo.com for more information on this feature.</p>
+						
+						
+						
+					<!-- <a href="#" class="btn btn-warning">Read More</a> -->
+				  </div>
+			</div>
+			
+			<br>
+			
+			<!-- card 2  -->
+			<div class="card">
+				  <div class="card-header">
+					Featured
+				  </div>
+				  <div class="card-body">
+					<h3 class="card-title">Password Authentication</h3>
+					<p class="card-text">
+
+						If your organisation does not have a federated identity management solution, you can choose to store user passwords in Workvivo itself. With this approach, users will need to login to Workvivo with their email address and a password of their choosing. The primary benefit of this approach is that it&rsquo;s the simplest &ndash; no configuration is required to get it working.</p>
+						<h5>Setting up passwords</h5>
+						<p>When an administrator (or automated provisioning process) creates a user account, there is an option to send the user an email with a special link they can use to set up their password. <br /><br />We also have the option to send out a batch of emails with password setup links to users who do not yet have a password set. This facilitates loading users in bulk from a CSV or Excel file, or through an automated provisioning process.</p>
+						
+						<h5>Forgotten password recovery</h5>
+						<p>If a user forgets their password, it cannot be recovered as we store passwords using a one-way hashing algorithm which cannot be reversed. Instead, users are sent an email with a one-time link that lets them change their password.</p>
+						<center> 
+						<img src="../knowledgebase/password.jpg" alt="password"style="width:500px;height:300px;">
+						</center>
+						<h4>Remember me</h4>
+						When logging in to the Workvivo Web application, users have the option to &ldquo;remember me&rdquo;.
+						When this option is checked, users will stay logged in indefinitely, until they logout or clear their browser cookies.
+						If this option remains unchecked, users will remain logged in for the duration of the browser session before being logged out. 
+						Note that some browsers treat the concept of a browser session differently to others &ndash; in some browsers as soon as you close the window it closes the session, with others a session may last until you restart the browser or the entire computer. 
+						<br>
+						<br>
+						<center> 
+						<img src="../knowledgebase/password1.jpg" alt="password"style="width:500px;height:300px;">
+						</center>
+						<br>
+						<br>
+						Note that the provision of a &ldquo;remember me&rdquo; feature can be configured to be switched off at an organisation-level on request.
+						<br>
+						<br>
+						
+						<h5>Changing password</h5>
+						<p>Users can easily change their password in Workvivo through the &ldquo;Edit My Profile&rdquo; section of the application &ndash; on both the Web application and on the mobile apps for iOS and Android.
+						Users are asked to enter their old password again in order to reauthenticate before their password is updated.</p>
+						
+						<h5>Password hashing</h5>
+						<p>Passwords are stored in the Workvivo database as a one-way irreversible hashed value. 
+						This means that if someone were to access the user record directly in the database, they would not be able to discover the user&rsquo;s actual password. 
+						The hashing algorithm used in Workvivo is bcrypt, with 10 iterations and a securely generated salt.</p>
+						
+						<h5>Delegated Access</h5>
+						<p>Workvivo discourages the sharing of passwords &ndash; even with trusted colleagues. 
+						To provide for a scenario where one user may wish another user to login to Workvivo on their behalf, we provide a delegated access feature. 
+						The user essentially selects which users they want to be able to access their account, and that user will be able to switch to the other account from within Workvivo without knowing that user&rsquo;s password. 
+						<br />
+						</p>
+						<br>
+						<center> 
+						<img src="../knowledgebase/delegated.jpg" alt="password"style="width:500px;height:300px;">
+						</center>
+						<br>
+						<br>
+						<h5>Workvivo Staff and User Passwords</h5>
+						<p>At Workvivo, we have an internal policy that no member of our staff will ever ask a user for their password.
+						We recommend advising your users to never give anyone their Workvivo password in person, over the phone, by email or through any other means.</p>
+						<br>
+						<br>
+						
+						
+
+			</p>
+					<!-- <a href="#" class="btn btn-warning">Read More</a> -->
+				  </div>
+			</div>
+			
+			<br>
+			
+			<!-- card 3  -->
+			<div class="card">
+				  <div class="card-header">
+					Featured
+				  </div>
+				  <div class="card-body">
+					<h3 class="card-title">&nbsp;User Session Storage</h3>
+					<p class="card-text">
+
+						<br />
+						When a user logs in to the Workvivo Web application, a unique random session identifier is created for that session. 
+						We then store a secure cookie in the user&rsquo;s browser which is passed to our servers with every request &ndash; this allows us to identify the user as they navigate through the application. 
+						When a user logs out, this session identifier is destroyed, as is the cookie. 
+						<br />
+						<br />
+						When a user account is deactivated or deleted, their sessions are also deleted which means they will be logged out of the Workvivo application and no longer be able to login until their account is restored. 
+						We also have the ability to log a specific user out remotely (without deactivating or deleting their account) if required. 
+						<br />
+						<br />
+						We store user session data in an in-memory Redis cluster, hosted on AWS via the ElastiCache managed service. 
+						This cluster is isolated within our own Virtual Private Cloud (VPC) in AWS, and access to it is restricted solely to our Web Application Servers.
+						Data in this store is encrypted both at-rest and in-transit, as are the nightly backups that are automatically created. 
+						We retain these backups for one day after which they are automatically destroyed.
+			</p>
+					<!-- <a href="#" class="btn btn-warning">Read More</a> -->
+				  </div>
+			</div>
+			
+			<br>
+			
+			
+			<!-- card 4  -->
+			<div class="card">
+				  <div class="card-header">
+					Featured
+				  </div>
+				  <div class="card-body">
+					<h3 class="card-title">API Authentication</h3>
+					<p class="card-text">
+					 <br />
+					Our native mobile apps for iOS and Android communicate with the Workvivo back-end via a RESTful JSON API. 
+					This is the same API that is used by our Web Application. With the Web app we can leverage cookies to store user state in the browser, but we do not have the concept of cookies in native mobile apps.
+					Instead, we use an OAuth2 compatible API authentication server which generates access tokens that can be used to identify a user on these types of devices. <br />Once an access token has been created, we store this securely on the device and pass this value in with every subsequent API call. The API validates the access token on every request, and if the token is invalid, the API will return an error response. <br /><br />On the native mobile apps, users remain logged in until they log out or their access tokens are revoked. When a user is deactivated or deleted, their access tokens are automatically deleted preventing them from logging in and automatically logging them out on any devices they have signed in.
+					We can also revoke access tokens for any given user at any time which will effectively log them out of all devices they have signed in on.
+					<h5>Logging in on Mobile (SSO environment) </h5>
+					<br>
+					For customers using SSO authentication, logging in on mobile has the following process: 
+					<br />
+					<br>
+					1. User enters their email address 
+					<br>
+					2. A Web view pops up in the app that redirects to the identity provider&rsquo;s sign in page &ndash; the user must enter their credentials for the IDM here to login 
+					<br>
+					3.Once the identity provider has authenticated the user they redirect back to Workvivo and the user is now logged in.</p>
+					<br>
+					<br>
+						<center> 
+						<img src="../knowledgebase/phone.jpg" alt="password"style="width:300px;height:500px;">
+						</center>
+					<br>
+					<br>
+					Logging in on Mobile (Password environment) The process is slightly different for customers using Password authentication:
+					<br>					
+					1. User enters their email address 
+					<br>
+					2. User enters their Workvivo password
+					<br>
+					3. Workvivo verifies the user credentials and the user is now logged in. 
+					<br>
+					<br>
+						<center> 
+						<img src="../knowledgebase/phone2.jpg" alt="password"style="width:300px;height:500px;">
+						</center>
+					<br>
+					<br>
+			</p>
+					<!-- <a href="#" class="btn btn-warning">Read More</a> -->
+				  </div>
+			</div>
+			
+			<br>
+			
+			
+			<!-- card 5  -->
+			<div class="card">
+				  <div class="card-header">
+					Featured
+				  </div>
+				  <div class="card-body">
+					<h3 class="card-title">Authorisation and Role-Based Access Control</h3>
+					<p class="card-text"> 
+					
+					While authentication enables us to identify a user and determine should they be able to log in to Workvivo, 
+					we use authorisation by means of role-based access control to determine whether a user should be able to access a specific feature or resource in Workvivo. 
+					<br />
+					<h5>Feature Permissions and Roles Many features in Workvivo have an associated permission.</h5>
+					In order for a user to access these features, they must be allocated the appropriate permission. 
+					Users can be granted permissions in one of two ways: 
+					<br />
+					<br>
+					1. Direct grant of a permission to a user 
+					<br>
+					2. Through a role 
+					<br>
+					<br />
+					A role is essentially a grouping of permissions with a description that covers the permissions in question. 
+					In Workvivo, we have several roles including &ldquo;admin&rdquo;, &ldquo;editor&rdquo;, &ldquo;org goal editor&rdquo;, &ldquo;analytics user&rdquo; and more.
+					Each of these roles has a collection of permissions associated with it, and granting a role to a user has the same effect as granting each individual permission to that user. 
+					The key benefit with roles is that it makes it much easier to manage permissions as you can simply grant or revoke a role rather than dealing with lots of individual permissions for many users. 
+					<br />
+					<br />
+					An &rdquo;admin&rdquo; user has access to grant roles and permissions to other users in Workvivo. 
+					<br />
+					<br />
+					
+						<center> 
+						<img src="../knowledgebase/resource.jpg" alt="password"style="width:500px;height:300px;">
+						</center>
+						
+						<br>
+						<br>
+						
+						<h5>Resource Access</h5>
+						<p>Another aspect of access control in Workvivo is defining what resources (e.g. users, goals, etc.)a given user can access.
+						 Every user in Workvivo is assigned to at least two customer-definable groups or teams (e.g. location, department, etc.).
+						 Resources can be restricted to just members of a given group, to individual people or to just those users who are flagged as &ldquo;managers&rdquo; of a given group. 
+						 <br />
+						<br />
+						If a user attempts to access a feature or resource they do not have access to, a 403 Forbidden error message is returned. The attempt is also logged.</p>
+											
+			</p>
+					<!-- <a href="#" class="btn btn-warning">Read More</a> -->
+				  </div>
+			</div>
+			
+			<br>
+	
+		
+		
+		<script type ="text/javascript">
+		
+		var substringMatcher = function(strs) {
+			  return function findMatches(q, cb) {
+				var matches, substringRegex;
+
+				// an array that will be populated with substring matches
+				matches = [];
+
+				// regex used to determine if a string contains the substring `q`
+				substrRegex = new RegExp(q, 'i');
+
+				// iterate through the pool of strings and for any string that
+				// contains the substring `q`, add it to the `matches` array
+				$.each(strs, function(i, str) {
+				  if (substrRegex.test(str)) {
+					matches.push(str);
+				  }
+				});
+
+				cb(matches);
+			  };
+			};
+			<!-- to change the options in the search bar  -->
+			var states = ['Authentication, Authorisation & Application Security','Password Authentication','User Session Storage','API Authentication','Authorisation and Role-Based Access Control'
+			];
+
+			
+			$('#the-basics .typeahead').typeahead({
+			  hint: true,
+			  highlight: true,
+			  minLength: 1
+			},
+			{
+			  name: 'states',
+			  source: substringMatcher(states)
+			});
+	
+		</script>
+		
+		
+		
+		
+	
+		<a href="#top"><img class="footer-logo mr-4" src="https://www.workvivo.com/img/logo-icon.png"height="50" width="50"></a>
+           <a href="#top" class="text-muted mr-4"><font color="white">Back to Top </font></a>
+		  
+		  
+		  <!-- <div class="text-right"> -->
+                <a href="https://twitter.com/workvivo" target="_blank" class="footer-social-link mr-sm-4"><img src="https://www.workvivo.com/img/icons/twitter.svg"height="50" width="50"></a>
+				<a href="https://www.linkedin.com/company/workvivo/" target="_blank" class="footer-social-link"><img src="https://www.workvivo.com/img/icons/linkedin.svg"height="50" width="50"></a>
+            <!-- </div> -->
+		
+		<p> <center> <font color="white"> &copy 2018 Workvivo Limited. All rights reserved. </font></center> </p>
+	
+	<br>
+	<br>
+	<br>
+	
+	
+	</body>
+</html>

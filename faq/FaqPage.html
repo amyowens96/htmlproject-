@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<title>FAQ</title>
+		
+		<!-- Bootstrap -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	
+		<!-- template style sheet -->
+		<link rel="stylesheet" href="../template.css">
+		
+		<!-- HideSeek -->
+		<script src="https://cdn.rawgit.com/vdw/HideSeek/master/jquery.hideseek.min.js"></script>
+		
+	</head>
+
+	<body>
+	
+	<!-- nav bar -->
+			<nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-primary">
+				<a class="navbar-brand" href="../Index.html"><img id= "workvivo_logo" src ="../logo.png"></a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+			</button>
+
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav ml-auto">
+				<li class="nav-item active">
+					<a class="nav-link" href="../knowledgebase/HomePage.html">Knowledgebase</a>
+				</li>
+				<li class="nav-item dropdown active">
+					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+				Ticketing
+					</a>
+					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<a class="dropdown-item" href="../ticketingsystem/TicketHomePage.html">Ticket Home Page</a>
+							<!-- <a class="dropdown-item" href="../ticketingsystem/DetailsTicketPage.html">Details</a> -->
+					<!-- <div class="dropdown-divider"></div> -->
+							<a class="dropdown-item" href="../ticketingsystem/CreateTicketPage.html">Create Ticket</a>
+					</div>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="FaqPage.html">FAQ</a>
+				</li>
+				<li class="nav-item active">
+					<a class="nav-link" href="../knowledgebase/AboutUsPage.html">About Us</a>
+				</li>
+				</ul>
+			<form class="form-inline my-2 my-lg-0">
+			  <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
+			 <a href= "https://www.workvivo.com/demo"><button class="btn btn-warning my-2 my-sm-0" type="button">Request Demo</button></a>
+			</form>
+		  </div>
+		</nav>
+		
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		
+		
+		
+		<!-- Collapse bar -->
+	
+
+		<div class= "container">
+		<div class="alert alert-light" role="alert">
+
+		<br>
+
+		<h2> Frequently Asked Questions</h2>
+		<br>
+		
+		<div class="input-group mb-3">
+			  <div class="input-group-prepend">
+				<!-- <span class="btn btn-warning" id="basic-addon1"> -->
+				<button class="btn btn-warning my-2 my-sm-0" type="submit">Search FAQs</span>
+			  </div>
+			  <input data-list=".default_list" id="input_1" type="text" class="form-control" 
+			  placeholder="Type Your Question" aria-label="Type Your Question" aria-describedby="basic-addon1">
+			</div>
+			
+			<!-- <ul class="vertical "> -->
+              <!-- <li>What is Workvivo?</li> -->
+              <!-- <li>How do I login to Workvivo?</li> -->
+              <!-- <li>Ive forgotten my password, how do I recover it?</li> -->
+              <!-- <li>I know my employer is using Workvivo but I dont know if Im set up.</li> -->
+              <!-- <li>Can I delete my account?</li> -->
+              <!-- <li>What is the activity feed?</li> -->
+              <!-- <li>How do I post an update?</li> -->
+              <!-- <li>What is a shout-out?</li> -->
+              <!-- <li>Can I post a shout-out to multiple people?</li> -->
+              <!-- <li>Can I post a shout-out to an entire team?</li> -->
+			  <!-- <li>How do I tag a goal on an update?</li> -->
+			  <!-- <li>How do I search in Workvivo?</li> -->
+			  <!-- </ul> -->
+            
+			
+			
+		<br>
+		<br>
+		<br>
+		
+				<div class="accordion default_list" id="accordionExample">
+				  <div class="card">
+					<div class="card-header" id="headingOne">
+					  <h5 class="mb-0">
+						<button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+						  What is Workvivo?
+						</button>
+					  </h5>
+					</div>
+
+					<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+					  <div class="card-body">
+						Workvivo is an internal communication&apos;s platform for medium to large
+						organisations that has a strong focus on improving employee engagement and
+						bringing the organisations goals to life. Many companies are using Workvivo to
+						communicate updates across their business, enabling their employees to
+						recognise their peers and highlight how the work people do every day has an
+						impact on the goals and objectives of the business.
+						<br>
+					</div>
+				  </div>
+				</div>
+				  
+			
+				  <!-- <div class="card"> -->
+				 <div class="card">
+					<div class="card-header" id="headingTwo">
+					  <h5 class="mb-0">
+						<button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+						  How do I login to Workvivo?
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+					  <div class="card-body">
+					How you login to Workvivo depends on whether your workplace is using Single
+					Sign On (SSO) for login. If they are, you simply go to Workvivo and you will be
+					automatically logged in &hyphen; your account is tied to the same account you use to login
+					to your computer, access email and other services. If they are not using SSO, you
+					simply navigate to the Workvivo address for your employer and enter your work
+					email address and Workvivo password to login.
+					<br>
+					<br>
+					You can also login to Workvivo on an iOS or Android mobile device. Go to the
+					App Store or Google Play Store and search for &Prime;Workvivo&Prime;. Once you have
+					downloaded the app, enter your work email address and you&apos;ll be guided through
+					logging in for the first time.
+					<br>
+						</div>
+					</div>
+				</div>	
+					<!-- <div class="card"> -->
+				 <div class="card">
+					<div class="card-header" id="headingThree">
+					  <h5 class="mb-0">
+						<button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+						  I&apos;ve forgotten my password&comma; how do I recover it?
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+					  <div class="card-body">
+					If your workplace is using Single Sign On&comma; you don&apos;t have a Workvivo password &hyphen;
+					your account is tied to the same account you use for logging into your computer
+					and accessing other services. If you&apos;re having trouble accessing Workvivo and
+					your company uses SSO you should contact your internal IT support team for
+					assistance.
+					<br>
+					<br>
+					If your workplace is not using SSO, you can set up a new password by clicking on
+					the &Prime;Forgot Your Password?&Prime; link on the Workvivo login screen and entering your
+					work email address. We will immediately send you an email with a special link you
+					can use to change your password.
+					<br>
+						</div>
+					</div>
+				 </div>
+					
+					<!-- <div class="card"> -->
+				 <div class="card">
+					<div class="card-header" id="headingFour">
+					  <h5 class="mb-0">
+						<button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+						  I know my employer is using Workvivo but I don&apos;t know if I&apos;m set up.
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+					  <div class="card-body">
+					When an organisation starts using Workvivo&comma; we send out an email to every
+					employee set up on the system with instructions on accessing Workvivo. If you did
+					not receive an email and you think you should have&comma; reach out to our support team
+					at support&commat;workvivo.com and we&apos;ll check for you.
+					<br>
+						</div>
+					</div>
+				</div>
+					
+					<!-- <div class="card"> -->
+				<div class="card">
+					<div class="card-header" id="headingFive">
+					  <h5 class="mb-0">
+						<button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseTwo">
+						  Can I delete my account?
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+					  <div class="card-body">
+					Yes&comma; of course. You will need to contact the Workvivo administrator in your
+					company to delete your account. In most companies&comma; user accounts are not
+					managed in Workvivo but in a third-party system and hence your access to
+					Workvivo will need to be removed from there. Once this has taken place&comma; the
+					administrator will reach out to us to let us know and we will delete your data from
+					our system immediately.
+					<br>
+						</div>
+					</div>
+				</div>
+				
+					<!-- <div class="card"> -->
+				<div class="card">
+					<div class="card-header" id="headingSix">
+					  <h5 class="mb-0">
+						<button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseSix" aria-expanded="false" aria-controls="collapseTwo">
+						  What is the activity feed?
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordionExample">
+					  <div class="card-body">
+					The activity feed is the central hub of activity in the Workvivo platform. When any
+					content is posted or anything happens in Workvivo&comma; it will appear on the activity
+					feed. This includes everything from posts and shout-outs&comma; to work anniversary and
+					new hire welcome messages, to newly published news articles&comma; events and much
+					more. For most users&comma; the activity feed is where they spend most of their time
+					engaging with Workvivo.
+					<br>
+						</div>
+					</div>
+				</div>
+					
+					<!-- <div class="card"> -->
+				 <div class="card">
+					<div class="card-header" id="headingSeven">
+					  <h5 class="mb-0">
+						<button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseSeven" aria-expanded="false" aria-controls="collapseTwo">
+						  How do I post an update?
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordionExample">
+					  <div class="card-body">
+					To post an update&comma; tap or click on the &Prime;Post an Update&Prime; button at the top of the
+					activity feed. This will open a screen where you can add text&comma; images&comma; videos&comma; links&comma;
+					attachments and more. You can also select an audience for your posts&comma; if you don&apos;t
+					want the entire company to see it. You can link a post to a goal&comma; or alternatively
+					post a shout&hyphen;out.
+					<br>
+						</div>
+					</div>
+				</div>
+					
+					<!-- <div class="card"> -->
+				 <div class="card">
+					<div class="card-header" id="headingEight">
+					  <h5 class="mb-0">
+						<button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseEight" aria-expanded="false" aria-controls="collapseTwo">
+						 What is a shout&hyphen;out?
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseEight" class="collapse" aria-labelledby="headingEight" data-parent="#accordionExample">
+					  <div class="card-body">
+					A shout&hyphen;out is an update where an employee is thanking or recognising one of
+					their peers. Before Workvivo&comma; people would often give shout&hyphen;outs in person or
+					perhaps by email &hyphen; which tend to get lost in time and don&apos;t encourage any
+					interaction by other staff. In Workvivo&comma; shout&hyphen;outs allow you to recognise colleagues in a new
+					way that is highly visible across the business&comma; and facilitates
+					others to join in the celebration with likes&comma; comments and more.
+					<br>
+						</div>
+					</div>
+				</div>
+					
+					<!-- <div class="card"> -->
+				 <div class="card">
+					<div class="card-header" id="headingNine">
+					  <h5 class="mb-0">
+						<button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseNine" aria-expanded="false" aria-controls="collapseTwo">
+						  Can I post a shout&hyphen;out to multiple people?
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseNine" class="collapse" aria-labelledby="headingNine" data-parent="#accordionExample">
+					  <div class="card-body">
+					Absolutely&excl; You can tag as many colleagues as you like on a shout&hyphen;out. When you
+					tag a user in a shout&hyphen;out&comma; they will get a notification that they received a shout&hyphen;out &hyphen;
+					so they&apos;ll know straight away that you&apos;ve recognised their efforts&excl;
+					<br>
+						</div>
+					</div>
+				</div>
+					
+					<!-- <div class="card"> -->
+				 <div class="card">
+					<div class="card-header" id="headingTen">
+					  <h5 class="mb-0">
+						<button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseTen" aria-expanded="false" aria-controls="collapseTwo">
+						  Can I post a shout&hyphen;out to an entire team?
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordionExample">
+					  <div class="card-body">
+					Sure &hyphen; you can tag individual people&comma; teams or any combination of people and
+					teams. This is really useful for when a project has just finished&comma; a team has achieved
+					something great or for any other positive message you want to share.
+					<br>
+						</div>
+					</div>
+				</div>
+					
+					<!-- <div class="card"> -->
+				 <div class="card">
+					<div class="card-header" id="headingEleven">
+					  <h5 class="mb-0">
+						<button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseEleven" aria-expanded="false" aria-controls="collapseTwo">
+						  How do I tag a goal on an update?
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordionExample">
+					  <div class="card-body">
+					When posting an update&comma;  simply tap or click the &Prime;Link this update to a goal&Prime; option
+					to open a window that lets you browse your company&apos;s goals. You can also link an
+					update to a team goal &hyphen; this will only be visible to other member&apos;s of that team.
+					<br>
+						</div>
+					</div>
+				</div>
+					
+					<!-- <div class="card"> -->
+				 <div class="card">
+					<div class="card-header" id="headingTweleve">
+					  <h5 class="mb-0">
+						<button class="btn btn-warning" type="button" data-toggle="collapse" data-target="#collapseTweleve" aria-expanded="false" aria-controls="collapseTwo">
+						  How do I search in Workvivo?
+						</button>
+					  </h5>
+					</div>
+					<div id="collapseTweleve" class="collapse" aria-labelledby="headingTweleve" data-parent="#accordionExample">
+					  <div class="card-body">
+					To search in Workvivo&comma; simply click on the search icon in the navigation bar.
+					Alternatively&comma; you can hit the backslash key on your keyboard regardless of where
+					you are in Workvivo&comma; and the search box will appear. When you search in
+					Workvivo&comma; it will look for content across the entire platform &hyphen; updates&comma; shout&hyphen;outs&comma;
+					articles&comma; events&comma; goals&comma; spaces&comma; questions&comma; teams and even people. This makes it
+					really easy to find what you are looking for &hyphen; and fast&excl;
+					<br>
+						</div>
+					</div>
+				</div>
+					
+					
+				  
+				  
+				  
+			</ul>
+			</div>
+			
+			<br>
+			<br>
+		</div>
+	</div>
+	
+	<br>
+		<br>
+		<br>
+		
+		<a href="#top"><img class="footer-logo mr-4" src="https://www.workvivo.com/img/logo-icon.png"height="50" width="50"></a>
+           <a href="#top" class="text-muted mr-4"><font color="white">Back to Top </font></a>
+		  
+		  
+		  <!-- <div class="text-right"> -->
+                <a href="https://twitter.com/workvivo" target="_blank" class="footer-social-link mr-sm-4"><img src="https://www.workvivo.com/img/icons/twitter.svg"height="50" width="50"></a>
+				<a href="https://www.linkedin.com/company/workvivo/" target="_blank" class="footer-social-link"><img src="https://www.workvivo.com/img/icons/linkedin.svg"height="50" width="50"></a>
+            <!-- </div> -->
+		<p> <center> <font color="white"> &copy 2018 Workvivo Limited. All rights reserved. </font></center> </p>
+		<br>
+		<br>
+		<br>
+		
+		<script type="text/javascript">
+		
+				$('#input_1').hideseek();
+		
+		</script>
+		
+		
+	</body>
+</html>
